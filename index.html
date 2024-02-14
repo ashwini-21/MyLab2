@@ -1,6 +1,56 @@
-Hiiiiiiiiiiii
-Printing from Developer side...Hooryyy:)
-Trying after updating webhook...
-kjkjkl
-jnkl
-kjkj
+<!doctype html>
+<html>
+	<head>
+		<title>LogIn Page</title>
+	</head>
+	<body>
+		<div>
+			<h1><em>... Please Log-In </em></h1><hr>
+		</div>
+		
+		<form action='thankyou.html' method='GET'>
+			<lable for='name'>Name: </lable>
+			&emsp;<input id='name' type='text' name='uname' placeholder='Enter your name' required><br>
+			<lable for='email'>Email: &nbsp</lable>
+			&ensp;<input id='email' type='email' name='uemail' placeholder='Enter your email' required><br>
+			<lable for='pass'>Password: &nbsp</lable>
+			<input id='pass' type='password' name='upwd' placeholder='Enter your password' value='' pattern=.{5,10} title='min 5 to max 10' required><br>
+			
+			<ol>
+			
+				<li><h2>Select Your Gender</h2>
+				<lable for='m'><strong>Male</strong></lable>
+				<input id='m' type='radio' name='gender' value='male'>
+				<lable for='f'>Female</lable>
+				<input id='f' type='radio' name='gender' value='female' checked></li>
+
+				<li><h2>Select All Languages You Konw</h2>
+					<select name='lang' multiple>
+					<option value='sa' selected>Samskrita</option>
+					<option value='en'>English</option>
+					<option value='mr'>Marathi</option>
+					<option value='ka'>Kannada</option>
+					<option value='te'>Telugu</option>
+					<option value='hi'>Hindi</option>
+				</select></li>
+
+				<li><h2>Select All Your Hobbies</h2>
+					<input type='checkbox' name='hob' value='read'>Reading<br>
+					<input type='checkbox' name='hob' value='draw'>Drawing<br>
+					<input type='checkbox' name='hob' value='swim'>Swimming<br>
+					<input type='checkbox' name='hob' value='paint'>Painting<br></li>
+					
+		
+			
+				<li><h2>Select Your Favorite Color</h2>
+					<input type='color' ></li>
+			
+				<li><h2>Today's Reason For Your Happiness</h2>
+				<textarea name='happy' raw='8' cols='80'></textarea></li><br>
+
+			</ol>
+		
+		<input type='submit' value='Submit'>
+			
+	</body>
+</html>
